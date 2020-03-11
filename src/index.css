@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+.topNav a{
+  margin: 10px;
+  padding: 10px;
+  background-color: #e5fee6;
+
+}
+
+.topNav{
+  list-style: none;
+}
+
+.done{
+  opacity: .2;
+}
+
+.active{
+  color: maroon;
+  text-decoration: none;
+  text-transform: uppercase;
+}
