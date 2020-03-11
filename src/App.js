@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Route, NavLink, Switch} from 'react-router-dom';
 
 import Courses from './containers/Courses/Courses';
-import Course from './containers/Course/Course';
+// import Course from './containers/Course/Course';
 import Users from './containers/Users/Users';
 import "./index.css"
 
@@ -32,7 +32,7 @@ class App extends Component {
           </nav>
 
           <Switch>
-            <Route path="/courses/:courseID/:courseTitle" component={Course} />
+            {/* <Route path="/courses/:courseID/:courseTitle" component={Course} /> */}
             <Route path="/courses" component={Courses} />
             <Route path="/users" component={Users} />
           </Switch>
