@@ -7,7 +7,7 @@ class Courses extends Component {
     state = {
         courses: [
             { id: 1, title: 'Angular - The Complete Guide' },
-            { id: 2, title: 'Vue - The Complete Guide' },
+            { id: 2, title: 'Vue JS - The Complete Guide' },
             { id: 3, title: 'The PWA - The Complete Guide' }
         ]
     }
